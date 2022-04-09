@@ -1,0 +1,15 @@
+@media only screen and (max-width: 933px) {
+  .main-nav {
+    text-align: center;
+  }
+
+  .logo {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 621px) {
+  html {
+    font-size: 40%;
+  }
+}
