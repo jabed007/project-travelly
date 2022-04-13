@@ -267,6 +267,7 @@ h5 {
   background-repeat: no-repeat;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -306,4 +307,31 @@ h5 {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  min-height: 10vh;
+  background-color: rgba(19, 28, 39, 1);
+  color: #fff;
+}
+
+.footer-wrapper {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-head {
+  flex: 1 1 40rem;
+}
+
+.footer-wrapper ul {
+  flex: 1 1 40rem;
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
 }
